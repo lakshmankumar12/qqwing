@@ -19,7 +19,7 @@
  * with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-#include "config.h"
+//#include "config.h"
 
 #include <cstdio>
 #include <cstdlib>
@@ -419,7 +419,7 @@ int main(int argc, char *argv[]){
 }
 
 void printVersion(){
-	cout << PACKAGE_STRING << endl;
+	//cout << PACKAGE_STRING << endl;
 }
 
 void printAbout(){
